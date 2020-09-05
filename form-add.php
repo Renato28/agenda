@@ -1,3 +1,5 @@
+<?php require 'init.php'; ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -57,7 +59,7 @@
             </form>
         </div>
     </div>
-        </div>
-    </div>
+</div>
+</div>
 </body>
 </html>

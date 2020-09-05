@@ -42,12 +42,12 @@ if (!is_array($contato)) {
             <form action="edit.php" method="post">
                 <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" , name="nome" value="<?php echo $contato['nome'] ?>"
+                    <input type="text" id="nome" name="nome" value="<?php echo $contato['nome'] ?>"
                            class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" , name="telefone" value="<?php echo $contato['telefone'] ?>"
+                    <input type="text" id="telefone" name="telefone" value="<?php echo $contato['telefone'] ?>"
                            class="form-control">
                 </div>
                 <div class="form-group">

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b65296d-800d-4f77-bfb0-0f56ca0f9b55" name="Default Changelist" comment="" />
+    <list default="true" id="5b65296d-800d-4f77-bfb0-0f56ca0f9b55" name="Default Changelist" comment="projeto atualizado">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/form-add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/form-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +21,25 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Renato Nobrega &lt;renatonobrega87@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1h1ccHvFWKaCS3WSetZIqT1jFuv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../php/php.exe" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -31,12 +53,31 @@
       <option name="presentableId" value="Default" />
       <updated>1599182117984</updated>
       <workItem from="1599182119611" duration="4736000" />
-      <workItem from="1599220701589" duration="26128000" />
+      <workItem from="1599220701589" duration="40333000" />
     </task>
+    <task id="LOCAL-00001" summary="projeto atualizado">
+      <created>1599263709826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599263709826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="projeto atualizado">
+      <created>1599266097335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599266097335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="projeto atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="projeto atualizado" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="18" key="#CLI_Interpreters" timestamp="1599183492433">
@@ -51,10 +92,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599238514548" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599266092026">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599266092026" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599183484035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599183484035" />
+    <state x="561" y="261" key="Github.ShareDialog" timestamp="1599251487800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599251487800" />
+    <state x="524" y="68" key="Github.UntrackedFilesDialog" timestamp="1599251525036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="524" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599251525036" />
     <state x="511" y="86" key="NewPhpClassDialog" timestamp="1599224808957">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -63,6 +116,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599244559379" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599266112308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599266112308" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1599247047991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

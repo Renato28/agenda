@@ -1,6 +1,6 @@
 <?php
 
-    require_once 'init.php';
+require_once 'init.php';
 
 $nome = isset($_POST['nome']) ? $_POST['nome'] : null;
 $telefone = isset($_POST['telefone']) ? $_POST['telefone'] : null;
@@ -9,7 +9,7 @@ $cidade = isset($_POST['cidade']) ? $_POST['cidade'] : null;
 $estado = isset($_POST['estado']) ? $_POST['estado'] : null;
 $categoria = isset($_POST['categoria']) ? $_POST['categoria'] : null;
 
-if(empty($nome) || empty($telefone) || empty($email) || empty($cidade) || empty($estado) || empty($categoria)){
+if (empty($nome) || empty($telefone) || empty($email) || empty($cidade) || empty($estado) || empty($categoria)) {
     echo "Preencha todos os campos";
     exit;
 }
@@ -24,9 +24,9 @@ $stmt->bindParam(':cidade', $cidade);
 $stmt->bindParam(':estado', $estado);
 $stmt->bindParam(':categoria', $categoria);
 
-if($stmt->execute()){
+if ($stmt->execute()) {
     header('Location: index.php');
-}else{
+} else {
     echo "Erro ao cadastrar";
     print_r($stmt->errorInfo());
 }
