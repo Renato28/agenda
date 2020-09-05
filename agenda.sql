@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 04-Set-2020 às 15:34
+-- Tempo de geração: 05-Set-2020 às 02:31
 -- Versão do servidor: 10.4.14-MariaDB
 -- versão do PHP: 7.4.9
 
@@ -38,6 +38,13 @@ CREATE TABLE `contato` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
+-- Extraindo dados da tabela `contato`
+--
+
+INSERT INTO `contato` (`id`, `nome`, `email`, `telefone`, `cidade`, `estado`, `categoria`) VALUES
+(18, 'Renato Nobrega da Silva', 'renatonobrega87@gmail.com', '83 994167847', 'João Pessoa - PB', 'PB', 'funcionario');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -45,7 +52,8 @@ CREATE TABLE `contato` (
 -- Índices para tabela `contato`
 --
 ALTER TABLE `contato`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `nome` (`nome`,`telefone`,`email`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
@@ -55,7 +63,7 @@ ALTER TABLE `contato`
 -- AUTO_INCREMENT de tabela `contato`
 --
 ALTER TABLE `contato`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
